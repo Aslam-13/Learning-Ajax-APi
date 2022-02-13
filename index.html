@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> chuck norris joke generator </title>
+  <style>
+    body{
+      font-size: 1.3rem; 
+    }
+    form{
+      margin: 1rem;
+      padding: 1.3rem;
+     }
+     input{
+       display: block; 
+       margin-top: 1.3rem;
+       padding:  0.4rem; 
+       border: 2px solid #000;
+       font-size: 1.2rem;
+       font-weight: bold;
+       }
+      .generate{
+        padding: 1rem;
+        background-color: #000;
+        color: #fff;
+      }
+     
+     
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>chuck noris joke generator </h1>
+    <div class="form">
+      <form >
+        <label for="number">Enter the number of jokes you want</label>
+        <input type="number" name="text" id="text" class="input">
+        <div>
+          <input type="submit" value="generate" class="generate">
+        </div>
+       </form>
+       <ul class="jokes-list"></ul>
+    </div>
+   </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
